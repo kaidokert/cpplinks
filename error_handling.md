@@ -205,6 +205,9 @@
 	+ https://github.com/TartanLlama/expected
 	+ https://github.com/TartanLlama/optional
 
+* Neither
+        + https://github.com/LoopPerfect/neither
+
 ## Tools
 
 * ErrDoc
