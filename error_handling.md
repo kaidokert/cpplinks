@@ -206,7 +206,7 @@
 	+ https://github.com/TartanLlama/optional
 
 * Neither
-        + https://github.com/LoopPerfect/neither
+	+ https://github.com/LoopPerfect/neither
 
 ## Tools
 
