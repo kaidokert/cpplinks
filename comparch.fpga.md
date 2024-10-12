@@ -1,66 +1,113 @@
 # [C++ links](README.md): computer architecture - FPGA
 
-Note: see also [computer architecture](comparch.md)
+See also: [computer architecture](comparch.md)
 
 You may also be interested in the resources listed in my talk, "FPGAs and Open-Source Hardware - An Intro" (Meeting C++ 2016):
 https://speakerdeck.com/mattpd/fpgas-and-open-source-hardware-an-intro-meeting-c-plus-plus-2016
 
 # Articles
 
-* A 16-nm Multiprocessing System-on-Chip Field-Programmable Gate Array Platform (2016) - http://doi.org/10.1109/MM.2016.18
-* Fundamental Underpinnings of Reconfigurable Computing Architectures (2015) - http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7086421
-* It’s an FPGA! (2011)
-  - P. Alfke, I. Bolsens, B. Carter, M. Santarini, and S. Trimberger, IEEE Solid-State Circuits Mag., vol. 3, no. 4, 2011, pp. 15-20
-  - http://phdtree.org/pdf/39505483-its-an-fpga/ / http://ieeexplore.ieee.org/document/6069771/
-* Measuring the Gap Between FPGAs and ASICs (2007) - http://ieeexplore.ieee.org/document/4068926/
-* Reconfigurable Computing Architectures (2015) - http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7086414
-* Three Ages of FPGAs: A Retrospective on the First Thirty Years of FPGA Technology (2015) - http://ieeexplore.ieee.org/abstract/document/7086413/
-* Trends in Reconfigurable Computing: Applications and Architectures (2015)
-  - Lesley Shannon, Veronica Cojocaru, Cong Nguyen Dao, and Philip H.W. Leong. In Proc. IEEE Symposium on Field-Programmable Custom Computing Machines (FCCM), 2015
-  - http://www.ee.usyd.edu.au/people/philip.leong/UserFiles/File/papers/trends_fccm15.pdf
-* Xilinx and the Birth of the Fabless Semiconductor Industry (2013)
-  - Steve Leibson, Chapter of "Fabless: the Transformation of the Semiconductor Industry"
-  - https://forums.xilinx.com/xlnx/attachments/xlnx/Xcell/200/1/Fabless%20Book%20Chapter%20FINAL.pdf
+- A 16-nm Multiprocessing System-on-Chip Field-Programmable Gate Array Platform (2016) - http://doi.org/10.1109/MM.2016.18
+- Fundamental Underpinnings of Reconfigurable Computing Architectures (2015) - http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7086421
+- It’s an FPGA! (2011)
+	- P. Alfke, I. Bolsens, B. Carter, M. Santarini, and S. Trimberger, IEEE Solid-State Circuits Mag., vol. 3, no. 4, 2011, pp. 15-20
+	- http://phdtree.org/pdf/39505483-its-an-fpga/ / http://ieeexplore.ieee.org/document/6069771/
+- Measuring the Gap Between FPGAs and ASICs (2007) - http://ieeexplore.ieee.org/document/4068926/
+- Reconfigurable Computing Architectures (2015) - http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7086414
+- Reading List - ACM SIGDA Technical Committee on FPGAs (TCFPGA) Hall of Fame - http://hof.tcfpga.org/reading-list/
+- Three Ages of FPGAs: A Retrospective on the First Thirty Years of FPGA Technology (2015) - http://ieeexplore.ieee.org/abstract/document/7086413/
+- Trends in Reconfigurable Computing: Applications and Architectures (2015)
+	- Lesley Shannon, Veronica Cojocaru, Cong Nguyen Dao, and Philip H.W. Leong. In Proc. IEEE Symposium on Field-Programmable Custom Computing Machines (FCCM), 2015
+	- http://www.ee.usyd.edu.au/people/philip.leong/UserFiles/File/papers/trends_fccm15.pdf
+- Xilinx and the Birth of the Fabless Semiconductor Industry (2013)
+	- Steve Leibson, Chapter of "Fabless: the Transformation of the Semiconductor Industry"
+	- https://forums.xilinx.com/xlnx/attachments/xlnx/Xcell/200/1/Fabless%20Book%20Chapter%20FINAL.pdf
+
+## Articles: 2021
+
+- Global is the New Local: FPGA Architecture at 5nm and Beyond
+	- The 2021 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA) 2021
+	- Stefan Nikolić, Francky Catthoor, Zsolt Tőkei, Paolo Ienne
+	- https://dl.acm.org/doi/10.1145/3431920.3439300
+	- https://github.com/EPFL-LAP/fpga21-scaled-tech
 
 # Courses
 
-* 18-643 Reconfigurable Logic: Technology, Architecture and Applications - http://users.ece.cmu.edu/~jhoe/doku/doku.php?id=18-643_reconfigurable_logic
+- 18-643 Reconfigurable Logic: Technology, Architecture and Applications
+	- https://users.ece.cmu.edu/~jhoe/doku/doku.php?id=18-643_reconfigurable_logic
 
 # Communities
 
-* comp.arch.fpga - https://groups.google.com/d/forum/comp.arch.fpga
-* comp.lang.verilog - https://groups.google.com/d/forum/comp.lang.verilog
-* comp.lang.vhdl - https://groups.google.com/d/forum/comp.lang.vhdl
-* /r/FPGA - everything about programmable hardware - https://www.reddit.com/r/FPGA
-* IRC ​Channel #​#fpga - freenode - http://irc.netsplit.de/channels/details.php?room=%23%23fpga&net=freenode
+- comp.arch.fpga - https://groups.google.com/d/forum/comp.arch.fpga
+- comp.lang.verilog - https://groups.google.com/d/forum/comp.lang.verilog
+- comp.lang.vhdl - https://groups.google.com/d/forum/comp.lang.vhdl
+- /r/FPGA - everything about programmable hardware - https://www.reddit.com/r/FPGA
+- IRC ​Channel #​#fpga - freenode - http://irc.netsplit.de/channels/details.php?room=%23%23fpga&net=freenode
 
 # HDL
 
-## Verilog
+## HDL: Verilog
 
-* EDA Playground - Verilog Tutorials
-  - http://eda-playground.readthedocs.io/en/latest/code-examples/verilog.html
-  - https://www.youtube.com/playlist?list=PLScWdLzHpkAfbPhzz1NKHDv2clv1SgsMo
-* FPGA Resources - http://fpgacpu.ca/fpga/
-  - HDL References - http://fpgacpu.ca/fpga/hdl/
-* HDLBits — Verilog Practice - http://verilog.stuffedcow.net/
-* Learning Verilog for FPGAs: The Tools and Building an Adder - http://hackaday.com/2015/08/19/learning-verilog-on-a-25-fpga-part-i/
-* Open FPGA Verilog Tutorial - https://github.com/Obijuan/open-fpga-verilog-tutorial/wiki/Home_EN
-* Quick Reference for Verilog HDL - https://github.com/parallella/oh/blob/master/docs/verilog_reference.md
-* Verilog Page - http://www.asic-world.com/verilog/
+- EDA Playground - Verilog Tutorials
+	- http://eda-playground.readthedocs.io/en/latest/code-examples/verilog.html
+	- https://www.youtube.com/playlist?list=PLScWdLzHpkAfbPhzz1NKHDv2clv1SgsMo
+- FPGA Resources - http://fpgacpu.ca/fpga/
+	- HDL References - http://fpgacpu.ca/fpga/reading.html
+- HDLBits — Verilog Practice
+	- https://hdlbits.01xz.net/
+	- http://verilog.stuffedcow.net/
+- Learning Verilog for FPGAs: The Tools and Building an Adder - https://hackaday.com/2015/08/19/learning-verilog-on-a-25-fpga-part-i/
+- Open FPGA Verilog Tutorial - https://github.com/Obijuan/open-fpga-verilog-tutorial/wiki/Home_EN
+- Quick Reference for Verilog HDL
+	- https://github.com/aolofsson/oh/blob/master/docs/verilog_reference.md
+- The Essence of Verilog: A Tractable and Tested Operational Semantics for Verilog
+	- OOPSLA 2023
+	- Qinlin Chen, Nairen Zhang, Jinpeng Wang, Tian Tan, Chang Xu, Xiaoxing Ma, and Yue Li
+	- https://doi.org/10.1145/3622805
+	- https://qinlinchen.github.io/papers/2023_OOPSLA_LambdaV.pdf
+	- https://silverbullettt.bitbucket.io/papers/oopsla2023.pdf
+- Verilog Page - https://www.asic-world.com/verilog/
 
-## SystemVerilog
+## HDL: SystemVerilog
 
-* Appendix A "Hardware Description Languages" from Neil Weste, David Harris (2010) "CMOS VLSI Design: A Circuits and Systems Perspective" (4th Edition) - http://pages.hmc.edu/harris/cmosvlsi/4e/cmosvlsidesign_4e_App.pdf
-* IEEE Standard 1800-2012 - http://standards.ieee.org/getieee/1800/download/1800-2012.pdf 
-* Papers
-  - Cliff Cummings - http://www.sunburst-design.com/papers/#papers_top
-  - Don Mills - http://www.lcdm-eng.com/html/papers.html
-  - Stuart Sutherland - http://www.sutherland-hdl.com/papers.html
-    - Standard Gotchas: Subtleties in Verilog and SystemVerilog That Every Engineer Should Know - http://www.sutherland-hdl.com/papers/2006-SNUG-Boston_standard_gotchas_paper.pdf
-    - More Standard Gotchas: Subtleties in Verilog and SystemVerilog That Every Engineer Should Know - http://www.sutherland-hdl.com/papers/2007-SNUG-SanJose_gotcha_again_paper.pdf
-* SystemVerilog Central - http://www.asic-world.com/systemverilog/
-* SystemVerilog Training and Examples from Doulos - The Guide to SystemVerilog - https://www.doulos.com/knowhow/sysverilog/
+- Appendix A "Hardware Description Languages" from Neil Weste, David Harris (2010) "CMOS VLSI Design: A Circuits and Systems Perspective" (4th Edition)
+	- http://pages.hmc.edu/harris/cmosvlsi/4e/cmosvlsidesign_4e_App.pdf
+- IEEE Standard 1800-2012
+	- http://standards.ieee.org/getieee/1800/download/1800-2012.pdf
+- Papers
+	- Cliff Cummings - http://www.sunburst-design.com/papers/#papers_top
+	- Don Mills - http://www.lcdm-eng.com/html/papers.html
+	- Stuart Sutherland - http://www.sutherland-hdl.com/papers.html
+		- Standard Gotchas: Subtleties in Verilog and SystemVerilog That Every Engineer Should Know
+			- http://www.sutherland-hdl.com/papers/2006-SNUG-Boston_standard_gotchas_paper.pdf
+		- More Standard Gotchas: Subtleties in Verilog and SystemVerilog That Every Engineer Should Know
+			- http://www.sutherland-hdl.com/papers/2007-SNUG-SanJose_gotcha_again_paper.pdf
+- SystemVerilog Central
+	- http://www.asic-world.com/systemverilog/
+- SystemVerilog Training and Examples from Doulos - The Guide to SystemVerilog
+	- https://www.doulos.com/knowhow/sysverilog/
+- SystemVerilog Tester
+	- Test suite designed to check compliance with the SystemVerilog standard
+	- https://github.com/chipsalliance/sv-tests
+
+# HLS
+
+## HLS: Readings
+
+- Productive Parallel Programming for FPGA with High Level Synthesis (Tutorial)
+	- Torsten Hoefler, Johannes de Fine Licht
+	- https://spcl.inf.ethz.ch/Teaching/hls-tutorial/
+	- https://github.com/spcl/hls_tutorial_examples
+- Transformations of High-Level Synthesis Codes for High-Performance Computing
+	- IEEE Transactions on Parallel and Distributed Systems (TPDS) 2021
+	- Johannes de Fine Licht, Maciej Besta, Simon Meierhans, Torsten Hoefler
+	- https://arxiv.org/abs/1805.08288
+	- https://spcl.inf.ethz.ch/Publications/.pdf/hls-transformations.pdf
+
+## HLS: Software
+
+- hlslib: A collection of extensions for Vivado HLS and Intel FPGA OpenCL to improve developer quality of life
+	- https://github.com/definelicht/hlslib
 
 # Open Source Hardware FPGA Projects
 
